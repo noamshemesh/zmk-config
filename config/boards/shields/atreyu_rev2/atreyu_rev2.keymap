@@ -30,7 +30,7 @@
    &trans    &trans &trans &trans &kp HOME &kp END       &trans    &trans    &trans    &kp F11    &kp F12  &trans
    &trans    &trans &trans &trans &trans   &trans        &trans    &trans    &trans    &trans     &kp UP    &trans
    &trans    &trans &trans &trans &trans   &trans       &kp K_PREV &kp K_PP &kp K_NEXT &kp LEFT   &kp DOWN  &kp RIGHT
-   &trans    &trans &trans &trans &trans  &kp K_VOL_DOWN &kp K_VOL_UP &trans    &trans    &trans     &trans    &trans
+   &trans    &trans &trans &trans &trans  &kp K_VOL_DN &kp K_VOL_UP &trans    &trans    &trans     &trans    &trans
                         >;
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
                 };
@@ -46,7 +46,7 @@
    &trans    &kp MINUS &kp EQUAL &kp LBKT  &kp RBKT  &kp BSLH      &kp F1       &kp F2    &kp F3    &kp F4    &kp F5    &kp F6
    &trans    &kp ESC   &kp LGUI  &kp RALT  &kp CLCK  &kp DQT       &kp F7       &kp F8    &kp F9    &kp F10   &kp F11   &kp F12
    &trans    &kp ESC   &kp LGUI  &kp RALT  &kp CLCK  &kp DQT       &kp K_PREV   &kp K_PP &kp K_NEXT &kp LEFT   &kp DOWN  &kp RIGHT
-   &trans    &trans &trans &trans &trans   &kp K_VOL_DOWN          &kp K_VOL_UP &trans    &trans    &trans     &trans    &trans
+   &trans    &trans &trans &trans &trans   &kp K_VOL_DN          &kp K_VOL_UP &trans    &trans    &trans     &trans    &trans
 //                                &trans      &trans       &kp BSPC        &trans      &trans
                         >;
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
