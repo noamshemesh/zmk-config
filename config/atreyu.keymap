@@ -63,11 +63,11 @@
 
                 lower_layer {
                         bindings = <
-   &kp GRAVE &kp F1 &kp F2 &kp F3 &kp F4 &kp F5   &kp F6        &kp F7    &kp F8   &kp F9    &kp F10     &kp EQUAL
+   &kp GRAVE &kp F1 &kp F2 &kp F3 &kp F4 &kp F5   &kp F6        &kp F7    &kp F8   &kp F9    &kp F10     &trans
    &trans    &trans &trans &trans &kp HOME &kp END       &trans    &trans    &trans    &kp F11    &kp F12  &trans
    &trans    &trans &trans &trans &trans   &trans        &trans    &trans    &trans    &trans     &kp UP    &trans
-   &trans    &trans &trans &trans &trans   &trans       &kp K_PREV &kp K_PP &kp K_NEXT &kp LEFT   &kp DOWN  &kp RIGHT
-   &trans    &trans &trans &trans &trans   &kp K_VOL_DN &kp K_VOL_UP &trans    &trans    &trans     &trans    &trans
+   &trans    &trans &trans &trans &trans   &trans       &kp C_PREV &kp C_PP &kp C_NEXT &kp LEFT   &kp DOWN  &kp RIGHT
+   &trans    &trans &trans &trans &trans   &kp C_VOL_DN &kp C_VOL_UP &trans    &trans    &trans     &trans    &trans
                         >;
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
                 };
@@ -79,11 +79,11 @@
 // |    | ESC | GUI | ALT | CAPS|  "  |   | F7  | F8  | F9  | F10 | F11 | F12 |
 //                       |     | ADJ | BKSP |    |     |
                         bindings = <
-   &kp TILDE &kp N1    &kp N2    &kp N3    &kp N4    &kp N5        &kp N6       &kp N7    &kp N8    &kp N9    &kp N0    &kp DEL
+   &kp TILDE &kp N1    &kp N2    &kp N3    &kp N4    &kp N5        &kp N6       &kp N7    &kp N8    &kp N9    &kp N0    &trans
    &trans    &kp MINUS &kp EQUAL &kp LBKT  &kp RBKT  &kp BSLH      &kp F1       &kp F2    &kp F3    &kp F4    &kp F5    &kp F6
-   &trans    &kp ESC   &kp LGUI  &kp RALT  &kp CLCK  &kp DQT       &kp F7       &kp F8    &kp F9    &kp F10   &kp F11   &kp F12
-   &trans    &kp ESC   &kp LGUI  &kp RALT  &kp CLCK  &kp DQT       &kp K_PREV   &kp K_PP &kp K_NEXT &kp LEFT   &kp DOWN  &kp RIGHT
-   &trans    &trans &trans &trans &trans   &kp K_VOL_DN          &kp K_VOL_UP &trans    &trans    &trans     &trans    &trans
+   &trans    &kp ESC   &kp LGUI  &kp RALT  &kp CLCK  &kp DQT       &kp F7       &kp F8    &kp F9    &kp F10   &kp UP   &kp F12
+   &trans    &kp ESC   &kp LGUI  &kp RALT  &kp CLCK  &kp DQT       &kp C_PREV   &kp C_PP &kp C_NEXT &kp LEFT   &kp DOWN  &kp RIGHT
+   &trans    &trans &trans &trans &trans   &kp C_VOL_DN          &kp C_VOL_UP &trans    &trans    &trans     &trans    &trans
 //                                &trans      &trans       &kp BSPC        &trans      &trans
                         >;
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
